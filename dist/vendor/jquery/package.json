@@ -111,7 +111,7 @@
   "homepage": "https://jquery.com",
   "husky": {
     "hooks": {
-      "commit-msg": "node vendor/commitplease",
+      "commit-msg": "node node_modules/commitplease",
       "pre-commit": "grunt lint:newer qunit_fixture"
     }
   },
