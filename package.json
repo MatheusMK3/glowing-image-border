@@ -14,6 +14,8 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "bootstrap-colorpicker": "^3.1.2",
+    "croppie": "^2.6.4",
+    "dropzone": "^5.5.1",
     "jquery": "^3.4.1"
   }
 }
