@@ -11,6 +11,8 @@ You can check a live demo running on Now.sh by [clicking here](https://glowing-i
 
 All dependencies are available through npm, so after cloning it to a local directory simply do a `npm install` and you're done.
 
+Running `node .` after the `npm install` will generate a copy of the required files into the `dist` directory, in case you want to deploy over Now.sh or FTP.
+
 ## About the Author
 
 Hey there, I'm Matheus Pratta, a Web Developer from Brazil. I love photography, coding and experimenting.

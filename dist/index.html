@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Glowing Image Border Generator</title>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142182645-1"></script>
+    <script>
+    // Enable analytics tracking only on the labs
+    if (~document.location.href.indexOf('labs.matheus.io')) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-142182645-1');
+    }
+    </script>
+
+
+    <!-- App Stylesheet -->
+    <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Header (and preview) -->
+        <header></header>
+
+        <!-- Main Content -->
+        <main>
+            <div class="container">
+                <!-- Step 1: Select your image -->
+                <section class="active">
+                    <div id="file-select" class="display-image">
+                        <div class="inner text-center">
+                            <h2>
+                                <span>Step 1:</span>
+                                Select your image
+                            </h2>
+                            <p>
+                                Drag and drop the picture you want to add the border here.<br>
+                                A preview will be generated so you can crop the image however you want.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Step 2: Crop your image -->
+                <section>
+                    <h2 class="mt-4">
+                        <span>Step 2:</span>
+                        Crop your image
+                    </h2>
+                    <p>
+                        Customize how you want your image cropped.<br>
+                        Make sure to get it right!
+                    </p>
+                </section>
+                
+                <!-- Step 3: Choose your border color -->
+                <section>
+                    <h2 class="mt-5">
+                        <span>Step 3:</span>
+                        Choose your border color
+                    </h2>
+                    <p>
+                        The color will be applied to the border as you edit it.<br>
+                        This also affects the "glow" over the border!
+                    </p>
+                    <div class="color-slider"></div>
+                    <div class="intersect-top text-center">
+                        <a id="btn-finish-edit" href="#" class="btn btn-primary">Finish</a>
+                    </div>
+                </section>
+
+                <!-- Step 4: Enjoy your cool picture! -->
+                <section class="text-center">
+                    <h2 class="mt-5">Step 4: Enjoy your cool new picture!</h2>
+                    <p>
+                        I hope you enjoyed using my weekend project!<br>
+                        You can check it's source-code on <a target="_blank" class="text-warning" href="https://github.com/MatheusMK3/glowing-image-border">GitHub</a> and check more of my work on my <a target="_blank" class="text-warning" href="https://matheus.io">website</a>.
+                    </p>
+                </section>
+            </div>
+        </main>
+
+        <!-- Footer (crop editor) -->
+        <footer>
+            <img id="editor-crop" />
+
+            <div class="intersect-top text-center">
+                <a id="btn-finish-crop" href="#" class="btn btn-primary">Next Step</a>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Use jQuery -->
+    <script src="/vendor/jquery/dist/jquery.min.js"></script>
+
+    <!-- Use Bootstrap -->
+    <link rel="stylesheet" href="/vendor/bootstrap/dist/css/bootstrap.min.css">
+    <script src="/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Dropzone.js -->
+    <link rel="stylesheet" href="/vendor/dropzone/dist/dropzone.css">
+    <script src="/vendor/dropzone/dist/dropzone.js"></script>
+
+    <!-- Croppie -->
+    <link rel="stylesheet" href="/vendor/croppie/croppie.css">
+    <script src="/vendor/croppie/croppie.js"></script>
+
+    <!-- App Scripts -->
+    <script src="/js/app.js"></script>
+</body>
+</html>

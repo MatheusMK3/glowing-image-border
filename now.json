@@ -3,6 +3,9 @@
     "name": "glowing-image-border",
     "alias": "glowing-image-border.lab.matheus.io",
     "builds": [
-        { "src": "./**", "use": "@now/static" }
+        { "src": "./dist/**", "use": "@now/static" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "dist/$1" }
     ]
 }
