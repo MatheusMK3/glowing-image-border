@@ -1,0 +1,19 @@
+{
+  "name": "glowing-image-border",
+  "version": "1.0.0",
+  "description": "Generates an image with a cool glowing circle around it.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatheusMK3/glowing-image-border.git"
+  },
+  "author": "Matheus Pratta",
+  "bugs": {
+    "url": "https://github.com/MatheusMK3/glowing-image-border/issues"
+  },
+  "homepage": "https://github.com/MatheusMK3/glowing-image-border#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "bootstrap-colorpicker": "^3.1.2",
+    "jquery": "^3.4.1"
+  }
+}
