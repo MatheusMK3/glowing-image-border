@@ -12,11 +12,7 @@
 <body>
     <div id="app">
         <!-- Header (and preview) -->
-        <header>
-            <div class="container">
-
-            </div>
-        </header>
+        <header></header>
 
         <!-- Main Content -->
         <main>
@@ -24,7 +20,7 @@
                 <!-- Step 1: Select your image -->
                 <section class="active">
                     <div id="file-select" class="display-image">
-                        <div class="inner">
+                        <div class="inner text-center">
                             <h2>
                                 <span>Step 1:</span>
                                 Select your image
@@ -46,6 +42,31 @@
                     <p>
                         Customize how you want your image cropped.<br>
                         Make sure to get it right!
+                    </p>
+                </section>
+                
+                <!-- Step 3: Choose your border color -->
+                <section>
+                    <h2 class="mt-5">
+                        <span>Step 3:</span>
+                        Choose your border color
+                    </h2>
+                    <p>
+                        The color will be applied to the border as you edit it.<br>
+                        This also affects the "glow" over the border!
+                    </p>
+                    <div class="color-slider"></div>
+                    <div class="intersect-top text-center">
+                        <a id="btn-finish-edit" href="#" class="btn btn-primary">Finish</a>
+                    </div>
+                </section>
+
+                <!-- Step 4: Enjoy your cool picture! -->
+                <section class="text-center">
+                    <h2 class="mt-5">Step 4: Enjoy your cool new picture!</h2>
+                    <p>
+                        I hope you enjoyed using my weekend project!<br>
+                        You can check it's source-code on <a target="_blank" class="text-warning" href="https://github.com/MatheusMK3/glowing-image-border">GitHub</a> and check more of my work on my <a target="_blank" class="text-warning" href="https://matheus.io">website</a>.
                     </p>
                 </section>
             </div>
