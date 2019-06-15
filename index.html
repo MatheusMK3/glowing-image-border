@@ -36,8 +36,29 @@
                         </div>
                     </div>
                 </section>
+
+                <!-- Step 2: Crop your image -->
+                <section>
+                    <h2 class="mt-4">
+                        <span>Step 2:</span>
+                        Crop your image
+                    </h2>
+                    <p>
+                        Customize how you want your image cropped.<br>
+                        Make sure to get it right!
+                    </p>
+                </section>
             </div>
         </main>
+
+        <!-- Footer (crop editor) -->
+        <footer>
+            <img id="editor-crop" />
+
+            <div class="intersect-top text-center">
+                <a id="btn-finish-crop" href="#" class="btn btn-primary">Next Step</a>
+            </div>
+        </footer>
     </div>
 
     <!-- Use jQuery -->
@@ -53,7 +74,7 @@
 
     <!-- Croppie -->
     <link rel="stylesheet" href="/node_modules/croppie/croppie.css">
-    <script src="/node_modules/croppie/croppie.min.js"></script>
+    <script src="/node_modules/croppie/croppie.js"></script>
 
     <!-- App Scripts -->
     <script src="/js/app.js"></script>
