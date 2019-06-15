@@ -1,0 +1,8 @@
+{
+    "version": 2,
+    "name": "glowing-image-border",
+    "alias": "glowing-image-border.lab.matheus.io",
+    "builds": [
+        { "src": "./**", "use": "@now/static" }
+    ]
+}

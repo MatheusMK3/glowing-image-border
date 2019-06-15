@@ -6,6 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Glowing Image Border Generator</title>
 
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142182645-1"></script>
+    <script>
+    // Enable analytics tracking only on the labs
+    if (~document.location.href.indexOf('labs.matheus.io')) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-142182645-1');
+    }
+    </script>
+
+
     <!-- App Stylesheet -->
     <link rel="stylesheet" href="/css/app.css">
 </head>

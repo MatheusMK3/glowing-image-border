@@ -3,6 +3,10 @@
 
 Mostly a friday night project to mess around with the Canvas element and make cool profile pictures for my Discord, nothing really important 😜
 
+## Demo
+
+You can check a live demo running on Now.sh by [clicking here](https://glowing-image-border.lab.matheus.io).
+
 ## Building
 
 All dependencies are available through npm, so after cloning it to a local directory simply do a `npm install` and you're done.
